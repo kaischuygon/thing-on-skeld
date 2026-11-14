@@ -2,7 +2,7 @@
 
 A branching interactive short story ("hypertext narrative") built in plain HTML and CSS. You play a crewmate aboard the Skeld, a ship that has been infiltrated by an alien impersonating one of the crew. Each page offers choices that branch the story, with audio clips and an in-story dashboard showing a map of the ship and your task list.
 
-**Play it:** https://kaischuyler.com/thing-on-skeld/
+**Play it:** https://kaischuygon.github.io/thing-on-skeld/
 
 ## Background
 
