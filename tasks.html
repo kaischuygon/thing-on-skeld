@@ -1,0 +1,143 @@
+<!doctype html>
+
+<html lang="en">
+
+	<head>
+
+		<title>
+            Tasks | The Thing On Skeld
+		</title>
+
+		<meta charset="utf-8">
+		<meta name="author" content="Kai Schuyler Gonzalez">
+        <meta name="description" content="hypertext narrative for ATLS 2200">
+        <meta name="viewport" content="width=device-width">
+		<link rel="stylesheet" type="text/css" href="css/styles.css">
+        <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
+        <link rel="icon" type="image/png" href="img/CYAN.png">
+	</head>
+
+	<body>
+
+		<header>
+			<h1>The Thing On Skeld</h1>
+			<h2>An <img src="img/logo.png" alt="among us logo"> interactive short story</h2>
+		</header>
+
+		<div class="windows95">
+            <div class="progression">
+                <div class="window">
+                    <div class="topbar">
+                        <div class="filename">
+                            Progression
+                        </div>
+                        <div class="win-buttons">
+                            <img src="img/win-buttons.png" alt="windows buttons">
+                        </div>
+                    </div>
+                    <div class="window-content">
+                        <nav>
+                            <a href="introduction.html">Introduction</a>
+                            <a href="start.html">Start</a>
+                            <a href="tasks.html" class="here">Splitting up</a>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+			<div class="content">
+                <div class="window">
+                    <div class="topbar">
+                        <div class="filename">
+                            the-imposter.exe
+                        </div>
+                        <div class="win-buttons">
+                            <img src="img/win-buttons.png" alt="windows buttons">
+                        </div>
+                    </div>
+                    <div class="window-content">
+						<section id="task-list">
+                            <h2>Tasks</h2>
+                            <p>
+                                As a group, you and the other crewmembers divide up the tasks that need to be done before the ship can move again. You are assigned the following tasks:
+                            </p>
+                            <ul>
+                                <li>Calibrate distributor in Electrical</li>
+                                <li>Prime shields in Shields</li>
+                                <li>Clear astroids using the laser cannon in Weapons</li>
+                            </ul>
+                        </section>
+                        
+                        <section id="splitting-up">
+                            <h2>Splitting Up</h2>
+                            <p>
+                                You decide to go to electrical first because you have the most experience calibrating the distributor. You want to make sure you get as many tasks done before the impostor has a chance to kill you. You arrive at electrical with no problems and calibrate the power distributor.
+                            </p>
+                            <h3>Suddenly, you hear a loud beeping sound start and lights flash red.</h3>
+                            <audio controls src="media/meeting-alarm.mp3">
+                                Your browser does not support the <code>audio</code> element.
+                            </audio> <br>
+                            <h3><i>An emergency meeting has been called.</i></h3>
+                            <p>
+                                You head over to the cafeteria to meet with your crewmates. When you arrive, you see Purple standing at the head of the table. 
+                            </p>
+                            <img src="img/PURPLE.png" alt="image of purple">
+                            <h3 class="text-purple">"Yellow is dead, I found her in Shields"</h3>
+                            <p>
+                                Purple asks everyone to explain the task they were working on before the meeting was called. Since the imposter is not as familiar with the ship as the rest of us, our theory is that it won't know how to do any of the tasks.
+                            </p>
+                            <p>
+                                After everyone explains their whereabouts, Purple says he suspects Red because he said was fixing wiring, which Purple thinks is the easiest task. Red explains that he chose to do wiring first because it was the closest task. Purple calls a vote. Red wants to wait until we have more information.
+                            </p>
+                        </section>
+        
+                        <div class="options">
+                            <a href="vote-red.html" class="button"> Vote Red </a>
+                            <a href="skip-red.html" class="button"> Skip vote </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="side-menu">
+                <div class="window">
+                    <div class="topbar">
+                        <div class="filename">
+                            Dashboard
+                        </div>
+                        <div class="win-buttons">
+                            <img src="img/win-buttons.png" alt="windows buttons">
+                        </div>
+                    </div>
+                    <div class="window-content">
+                        <h3>Map</h3>
+                        <div class="map"> <a href="img/SKELD_MAP.jpg" target="_blank"> <img src="img/SKELD_MAP_THUMB.jpg" alt="map image"> </a> </div>
+                        <p>Click on the map to bring up a larger version.</p>
+                        <h3>Tasks</h3>
+                        <ul>
+                            <li>Calibrate distributor in Electrical</li>
+                            <li>Prime shields in Shields</li>
+                            <li>Clear astroids using the laser cannon in Weapons</li>
+                        </ul>
+                        <h3>Crewmates</h3>
+                        <ul>
+                            <li class="text-yellow complete">Yellow</li>
+                            <li class="text-purple">Purple</li>
+                            <li class="text-red">Red</li>
+                            <li class="text-green">Green</li>
+                            <li class="text-blue">Blue</li>
+                        </ul>
+                    </div>
+                </div>
+			</div>
+		</div>
+
+
+		<div class="taskbar">
+            <a href="startup.html" class="start"><img src="img/windows-95.png" class="taskbar-image" alt="win95logo">Start</a>
+            <a href="#"><img src="img/windows95-directory.png" class="taskbar-image" alt=win95directory>README.txt</a>
+            <a href="#" class ="active"><img src="img/CYAN.png" class="taskbar-image" alt="mongus">the-impostor.exe</a>
+        </div>
+
+	</body>
+
+</html>
